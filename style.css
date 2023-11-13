@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #F8F4E3;
+}
+
+#title {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 1000;
+    color: #0D1B1E;
+}
+
+.recipelist {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipelist li {
+    margin-right: 20px;
+}
+
