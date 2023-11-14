@@ -1,27 +1,82 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: #F8F4E3;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#title {
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F4E3;
+    border: 10px solid black;
+}
+
+/* =============
+    Odin Recipes
+==============*/
+
+.odin {
+    position: relative;
+    background-color: red;
+    margin: 0px;
+    padding: 50px 50px 20px 50px;
     font-size: 80px;
-    text-align: center;
     font-weight: 1000;
     color: #0D1B1E;
 }
 
-.recipelist {
-    list-style-type: none;
+.container {
+    background-color: aquamarine;
     display: flex;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    padding: 100px;
+    border: 10px solid rgb(104, 7, 7);
 }
 
-.recipelist li {
-    margin-right: 20px;
+.container .recipe {
+    margin: 50px;
+    text-align: center;
+    width: auto;
+}
+
+.broc {
+    background-color: violet;
+    margin: 0;
+    padding: 0;
+}
+
+.steak {
+    background-color: greenyellow;
+    margin: 0;
+    padding: 0;
+}
+
+.fish {
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 10px solid black;
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    vertical-align: top;
+    /* overflow: hidden; */
+}
+
+.recipelist {
+    list-style-type: none;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
 }
 
