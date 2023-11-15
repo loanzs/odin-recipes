@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8F4E3;
-    /* border: 10px solid black; */
 }
 
 /* =============
@@ -20,7 +19,6 @@ body {
 
 .odin {
     text-align: center; 
-    /* background-color: red; */
     margin: 0;
     padding: 100px 50px 0px 50px;
     font-size: 4em;
@@ -30,40 +28,17 @@ body {
 
 .container {
     font: bold 25pt 'Lucida Sans', sans-serif;
-    /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     padding: 50px;
-    /* border: 10px solid rgb(104, 7, 7); */
 }
 
 .container .recipe {
     margin: 50px;
     background-color: #916953;
 }
-
-/* .broc {
-    background-color: #379634;
-    margin: 0;
-    padding: 0;
-    
-}
-
-.fish {
-    background-color: orange;
-    margin: 0;
-    padding: 0;
-}
-
-.steak {
-    background-color: #6A3937;
-    margin: 0;
-    padding: 0;
-} */
-
-
 
 img {
     margin: 30px 30px 10px;
@@ -81,20 +56,8 @@ img {
     color: #F8F4E3;
 }
 
-/* a {
-    color:white;
-    text-decoration: none;
-}
-
-.recipe.broc a:hover {
-    display: block;
-    background-color: #C5AF9B;
-    border: 5px solid #C5AF9B;
-    margin: 0;
-} */
-
 .recipe a {
-    display: block; /* or inline-block */
+    display: block;
     text-align: center;
     padding: 10px 40px;
     margin: 0;
