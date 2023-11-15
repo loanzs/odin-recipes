@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8F4E3;
-    border: 10px solid black;
+    /* border: 10px solid black; */
 }
 
 /* =============
@@ -19,42 +19,36 @@ body {
 ==============*/
 
 .odin {
-    position: relative;
-    background-color: red;
-    margin: 0px;
-    padding: 50px 50px 20px 50px;
-    font-size: 80px;
+    text-align: center; 
+    /* background-color: red; */
+    margin: 0;
+    padding: 100px 50px 0px 50px;
+    font-size: 4em;
     font-weight: 1000;
-    color: #0D1B1E;
+    color: #2E2F2C;
 }
 
 .container {
-    background-color: aquamarine;
+    font: bold 25pt 'Lucida Sans', sans-serif;
+    /* background-color: aquamarine; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    margin: 20px;
-    padding: 100px;
-    border: 10px solid rgb(104, 7, 7);
+    padding: 50px;
+    /* border: 10px solid rgb(104, 7, 7); */
 }
 
 .container .recipe {
     margin: 50px;
-    text-align: center;
-    width: auto;
+    background-color: #916953;
 }
 
-.broc {
-    background-color: violet;
+/* .broc {
+    background-color: #379634;
     margin: 0;
     padding: 0;
-}
-
-.steak {
-    background-color: greenyellow;
-    margin: 0;
-    padding: 0;
+    
 }
 
 .fish {
@@ -63,20 +57,56 @@ body {
     padding: 0;
 }
 
+.steak {
+    background-color: #6A3937;
+    margin: 0;
+    padding: 0;
+} */
+
+
+
 img {
-    border: 10px solid black;
-    margin: 50px;
-    width: 500px;
-    height: 500px;
+    margin: 30px 30px 10px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     vertical-align: top;
-    /* overflow: hidden; */
 }
 
-.recipelist {
+.recipe .recipelist {
     list-style-type: none;
-    border: 5px solid black;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
+    text-align: center;
+    color: #F8F4E3;
+}
+
+/* a {
+    color:white;
+    text-decoration: none;
+}
+
+.recipe.broc a:hover {
+    display: block;
+    background-color: #C5AF9B;
+    border: 5px solid #C5AF9B;
+    margin: 0;
+} */
+
+.recipe a {
+    display: block; /* or inline-block */
+    text-align: center;
+    padding: 10px 40px;
+    margin: 0;
+    background-color: #916953;
+    color: #F8F4E3;
+    text-decoration: none;
+    border: 5px solid #916953;
+}
+
+.recipe a:hover {
+    color: #2E2F2C;
+    background-color: #F8F4E3;
+    border-color: #F8F4E3;
 }
 
